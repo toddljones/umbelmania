@@ -1,0 +1,20 @@
+curl \
+    --header "Content-Type:application/json" \
+    --data '{
+            "gamestate":{
+                "your_moves":[],
+                "email":"toddljones@gmail.com",
+                "opponent_name":"El Rey Muy Dante",
+                "seed":7996821803495312627,
+                "player_name":"relampago engrasado",
+                "opponent_moves":[],
+                "total_score":0,
+                "moves_remaining":1000,
+                "id":"ca65f60d-5a89-406c-a079-3212321423bc",
+                "opponent":"el-rey-muy-dante"
+            },
+            "move": "K",
+            "signature": "oV79m+yH1jBXMBsDK8SQmpQxx64="
+            }' \
+    https://umbelmania.umbel.com/training/ \
+    | tee $0.out

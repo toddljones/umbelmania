@@ -1,0 +1,9 @@
+curl \
+    --header "Content-Type:application/json" \
+    --data '{
+                "opponent": "el-rey-muy-dante", 
+                "player_name": "relampago engrasado", 
+                "email": "toddljones@gmail.com"
+            }' \
+    https://umbelmania.umbel.com/training/ \
+    | tee $0.out

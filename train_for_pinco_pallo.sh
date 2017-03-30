@@ -1,0 +1,10 @@
+trainer2.py K > trainer2.py.log0 2>&1
+trainer2.py K > trainer2.py.log1 2>&1
+trainer2.py K > trainer2.py.log2 2>&1
+trainer2.py K > trainer2.py.log3 2>&1
+trainer2.py K > trainer2.py.log4 2>&1
+trainer2.py K > trainer2.py.log5 2>&1
+trainer2.py K > trainer2.py.log6 2>&1
+trainer2.py K > trainer2.py.log7 2>&1
+trainer2.py K > trainer2.py.log8 2>&1
+trainer2.py K > trainer2.py.log9 2>&1

@@ -1,0 +1,44 @@
+[
+    {
+        "difficulty": 0,
+        "name": "Pato Bajo, Jr.",
+        "minimum_score": 0,
+        "slug": "pato-bajo-jr"
+    },
+    {
+        "difficulty": 0,
+        "name": "Princesa Comico",
+        "minimum_score": 0,
+        "slug": "princesa-comico"
+    },
+    {
+        "difficulty": 0,
+        "name": "El Rey Muy Dante",
+        "minimum_score": 0,
+        "slug": "el-rey-muy-dante"
+    },
+    {
+        "difficulty": 1,
+        "name": "Senor Amistoso",
+        "minimum_score": 0,
+        "slug": "senor-amistoso"
+    },
+    {
+        "difficulty": 24,
+        "name": "xxx",
+        "minimum_score": 5,
+        "slug": "yyy"
+    },
+    {
+        "difficulty": 10,
+        "name": "pinco pallo",
+        "minimum_score": 5,
+        "slug": "arena2"
+    },
+    {
+        "difficulty": 0,
+        "name": "manasi",
+        "minimum_score": 0,
+        "slug": "mkshah"
+    }
+]

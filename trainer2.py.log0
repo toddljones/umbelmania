@@ -1,0 +1,42 @@
+### START ###
+site: https://umbelmania.umbel.com/training/
+initial_payload:  {
+    "player_name": "Bodds by Dodds", 
+    "email": "todd.jones@gmail.com", 
+    "opponent": "arena2"
+}
+game initialized, json: {
+    "gamestate": {
+        "opponent_name": "pinco pallo", 
+        "player_name": "Bodds by Dodds", 
+        "opponent_moves": [], 
+        "total_score": 0, 
+        "id": "4f0ce01c-0446-4af5-8275-fda51a0a84c8", 
+        "your_moves": [], 
+        "seed": 2659038120720526001, 
+        "moves_remaining": 1000, 
+        "email": "todd.jones@gmail.com", 
+        "opponent": "arena2"
+    }, 
+    "signature": "gf6ULxQZKK1MSE7t0l4IAtM1ZkM="
+}
+Traceback (most recent call last):
+  File "./trainer2.py", line 65, in <module>
+    main()
+  File "./trainer2.py", line 56, in main
+    json_payload = getTheMotherLoad(json_payload, site)
+  File "./trainer2.py", line 25, in getTheMotherLoad
+    return_payload = urllib2.urlopen(post, json.dumps(json_payload))
+  File "C:\Anaconda2\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Anaconda2\lib\urllib2.py", line 435, in open
+    response = meth(req, response)
+  File "C:\Anaconda2\lib\urllib2.py", line 548, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Anaconda2\lib\urllib2.py", line 473, in error
+    return self._call_chain(*args)
+  File "C:\Anaconda2\lib\urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "C:\Anaconda2\lib\urllib2.py", line 556, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+urllib2.HTTPError: HTTP Error 500: INTERNAL SERVER ERROR
